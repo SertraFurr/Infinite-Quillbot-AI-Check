@@ -7,8 +7,9 @@ I won't explain much
 2. Paste this
 ```js
 localStorage.setItem('aidr_daily_scan_count', -9999999);
-
+localStorage.setItem('analyzeTextSubmission', -9999999);
 console.log('aidr_daily_scan_count =', localStorage.getItem('aidr_daily_scan_count'));
+console.log('aidr_daily_scan_count =', localStorage.getItem('analyzeTextSubmission'));
 
 ```
 3. Press Enter!
